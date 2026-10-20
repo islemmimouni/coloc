@@ -1,0 +1,6 @@
+# Copier vers dev.backend.hcl (ignoré par Git) et adapter le nom du bucket
+bucket       = "coloc-tfstate-NOM-UNIQUE"
+key          = "dev/terraform.tfstate"
+region       = "eu-west-3"
+encrypt      = true
+use_lockfile = true

@@ -1,0 +1,17 @@
+# Terraform : état et cache locaux (l'état réel est dans S3)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.auto.tfvars
+secrets.tfvars
+*.backend.hcl
+# Identifiants et secrets : JAMAIS dans Git
+.aws/
+credentials
+*.pem
+.env
+# Divers
+__pycache__/
+venv/
+node_modules/
